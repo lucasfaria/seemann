@@ -159,7 +159,7 @@ nav.display-mini-header .navbar-nav .nav-link:hover {
 }
 
 .contact {
-  padding: 70px 0;
+  padding: 150px 0 75px;
 }
 
 .contact h2 {
@@ -186,6 +186,11 @@ nav.display-mini-header .navbar-nav .nav-link:hover {
   padding-bottom: 15px;
 }
 
+.contact iframe {
+  border: solid 1px #dfdfdf;
+  border-radius: 5px;
+}
+
 .depoimentos {
   background-color: #156799;
 }
@@ -196,21 +201,21 @@ nav.display-mini-header .navbar-nav .nav-link:hover {
   font-size: 40px;
   letter-spacing: -0.04em;
   margin-bottom: 40px;
-  padding: 80px 0;
+  padding: 80px 0 0;
   text-align: center;
 }
 
 .lista-depos {
   position: relative;
   padding: 0;
-  margin: 0 0 80px !important;
+  margin: 20px 0 80px !important;
 }
 
 .depo {
   color: #fff;
   font-size: 20px;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 100;
   padding: 0 10%;
   text-align: center;
 }
@@ -250,7 +255,7 @@ nav.display-mini-header .navbar-nav .nav-link:hover {
 
 .slick-slide img {
   display: inline-block !important;
-  height: 40px;
+  height: 60px;
 }
 
 .clientes .slick-slide {
@@ -271,8 +276,36 @@ nav.display-mini-header .navbar-nav .nav-link:hover {
   border-color: #fff;
 }
 
+.numbers {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: -80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.number {
+  color: #156799;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+}
+
 footer {
   background-color: #156799;
+  padding: 25px 0;
+}
+
+.copy {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
 }
 
 @media (min-width: 992px) {
