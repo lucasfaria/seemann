@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Open Sans";
+  /*font-family: "Open Sans";*/
   font-size: 18px;
 }
 
@@ -102,7 +102,8 @@ nav.display-mini-header .navbar-nav .nav-link:hover {
 }
 
 .shadow {
-  box-shadow: rgb(0, 0, 0, 0.12) 0px 48px 48px;
+  /*-webkit-box-shadow: 1px 5px 35px -11px rgba(0, 0, 0, 0.68);
+  box-shadow: 1px 5px 35px -11px rgba(0, 0, 0, 0.68);*/
 }
 
 .content {
@@ -306,6 +307,20 @@ footer {
   font-size: 16px;
   font-weight: 300;
   margin: 0;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  color: #fff;
 }
 
 @media (min-width: 992px) {
