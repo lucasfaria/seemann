@@ -4,9 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="assets/img/favicon.png" />
-
     <title>Seemann - Contadores Especializados em Construção Civil</title>
+
+    <meta
+      name="description"
+      content="A Seemann é uma plataforma de Contadores especializados em Construção Civil. Estamos sediados em Curitiba e nossos clientes possuem obras principalmente na Região Sul do país."
+    />
+
+    <!-- OG -->
+    <meta property="og:locale" content="pt_BR" />
+
+    <meta property="og:url" content="//seemanncontadores.com.br" />
+
+    <meta
+      property="og:title"
+      content="Seemann - Contadores Especializados em Construção Civil"
+    />
+
+    <meta
+      property="og:description"
+      content="A Seemann é uma plataforma de Contadores especializados em Construção Civil. Estamos sediados em Curitiba e nossos clientes possuem obras principalmente na Região Sul do país."
+    />
+
+    <meta property="og:image" content="/assets/img/office-top.png" />
 
     <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -37,6 +57,8 @@
     />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="icon" href="assets/img/favicon.png" />
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -91,7 +113,8 @@
           ],
         });
       });
-      /*$(function () {
+
+      $(function () {
         $(window).scroll(function () {
           return scrollAction();
         });
@@ -111,14 +134,29 @@
             }
           }
         };
-      });*/
+      });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JBGT9M73KN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-JBGT9M73KN");
     </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="navbar-brand" href="javascript:">
-          <img src="assets/img/logo.png" alt="" />
+          <img src="assets/img/logo-seemann.png" width="220" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -152,7 +190,7 @@
     <section class="top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
+          <div class="col-lg-4 align-self-center" data-aos="fade-right">
             <h1>Vamos construir <span>Juntos!</span></h1>
 
             <h2>
@@ -224,7 +262,7 @@
             <img
               src="assets/img/img-3.png"
               alt=""
-              class="img-fluid radius shadow"
+              class="img-fluid radius shadow contabilidade"
             />
           </div>
         </div>
@@ -233,12 +271,12 @@
 
     <section class="content">
       <div class="container">
-        <div class="row">
+        <div class="row inverse">
           <div class="col-lg-4" data-aos="fade-right">
             <img
               src="assets/img/img-2.png"
               alt=""
-              class="img-fluid radius shadow"
+              class="img-fluid radius shadow tributacoes"
             />
           </div>
           <div class="col-lg-1"></div>
@@ -537,7 +575,12 @@
           <div class="col-lg-4 align-self-end">
             <ul class="social">
               <li>
-                <a href=""> <i class="bi bi-linkedin"></i> </a>
+                <a
+                  href="https://www.linkedin.com/company/seeman-contadores/"
+                  target="_blank"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
               </li>
             </ul>
           </div>
