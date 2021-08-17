@@ -2,7 +2,8 @@
   font-family: "New York";
   font-style: normal;
   font-weight: normal;
-  src: local("New York Extra Large Bold"), url("../fonts/NewYorkExtraLargeBold.woff") format("woff");
+  src: local("New York Extra Large Bold"),
+    url("../fonts/NewYorkExtraLargeBold.woff") format("woff");
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 header.display-mini-header {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 a {
@@ -229,7 +230,7 @@ nav.display-mini-header .navbar-nav .nav-link:hover {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0, -70%);
-          transform: translate(0, -70%);
+  transform: translate(0, -70%);
   z-index: 1;
 }
 
@@ -299,6 +300,7 @@ footer {
 
 .logo-rodape {
   margin-bottom: 30px;
+  width: 130px;
 }
 
 .copy {
@@ -311,7 +313,7 @@ footer {
 .social {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: right;
 }
 
 .social li {
@@ -353,7 +355,7 @@ footer {
   position: absolute;
   width: 80px;
   -webkit-transform: translate(-50%, -20px);
-          transform: translate(-50%, -20px);
+  transform: translate(-50%, -20px);
 }
 
 .full-content .primeira-img {
@@ -397,8 +399,8 @@ footer {
   .inverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .navbar-collapse {
     margin: 10px 0 0 0;
